@@ -14,14 +14,21 @@
     <title>{% block title %}{{ title }} | GitHub Codespaces ♥️ Django{% endblock %}</title>
     
     <link rel="stylesheet" href="{% static 'main.css' %}">
+    <style>
+        body {
+            background-color: lightblue; /* For solid color */
+            background-image: url('{% static "bg2.jpg" %}'); /* For image background */
+            background-size: cover; /* Adjusts image to cover the whole page */
+        }
+    </style>
 </head>
 
 <body>
     <div class="App">
         <header class="App-header">
-            <img src="{% static 'Octocat.png' %}" class="App-logo" alt="logo" />
+            <img src="{% static 'meow2.jpg' %}" class="App-logo" alt="logo" />
             <p>
-                GitHub Codespaces <span class="heart">♥️</span> Django
+                Simridhi <span class="heart">♥️</span> Sharma
             </p>
             <p class="small">
                 Edit <code>hello_world/templates/index.html</code> and see changes live!
